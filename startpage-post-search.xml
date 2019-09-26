@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Invidious</ShortName>
-<Description>Search Invidio.us</Description>
+<ShortName>Startpage (POST)</ShortName>
+<Description>Search startpage.com using POST-requests</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image width="32" height="32" type="image/x-icon">https://invidio.us/favicon-32x32.png?v=be2ee33</Image>
-<Image width="16" height="16" type="image/x-icon">https://invidio.us/favicon-16x16.png?v=be2ee33</Image>
-<Url type="text/html" method="GET" template="https://invidio.us/results?search_query={searchTerms}&amp;aq=f">
+<!--<Image width="16" height="16" type="image/png">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wkaFDEx4hwaIgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAACIElEQVQ4y32TPWhUQRSFv3m7RiW4jYK4ptrGJhHhzRoDUcE3G7BQUvgD1gqWxsJMxPyIgrOQNQSRgIqkEUvtnTUgRvyZB4KNWNioIUQsjCGYxOxY7ChPknhhOMw5hzt37p0hTnQOQCo9LJX2mTVMJuJEN1FpZNL/l4/SulmNlb4FjOC5AWhgEhiRSo+H5GwUkVR6h4DzwLSrm8vOmmpIANDIHIRM+qPUGloKBWSiBUAe2BmwJJXe7qz5BnwCxoBqSHA2TnQrgkWpdNvS/PxsWq/eBhBS6RwwBRwEFoCLsDLpbG1FKt0G3AROrlP9BWfNuAh33AQ8Aw4E8QtwylnzQir9ADgDvALuA9uA0eAbiwDwjVVnTReQAB+A3cB0rPRh4H0wzzhr7jhrasBQ4PZGUukCInorlb7krHnqrNkDPAIQMAy0BnNLpvzFgLkI6AM6gK8ZwzsAD0sbTG9rwLk8MBs2MvQC4HuoYAIoB04AHFGaebgWuJe5mY/P02Kpe67ZfU4Ax4B9QJ+z5mGx1N0LdALprlJ3x3JzYgD9zppafn9FR6+fmAmp9GagCOQ8/nNqq/eyJwNbwP8AcdVZMxKm19S6etc+1T+iVLrW/BsDj9fTo1hplhcyQmUA2TOAWP3lA9UGIETUXj56vQDQfugceO8B8qk1a3vs4c3UKLHSQw3fOC5g0ftG0S/9vAucFiInXL3q+V+Ue66I9fjOyuA//G8oO8DuauBX0AAAAABJRU5ErkJggg==</Image>-->
+<Image width="32" height="32" type="image/png">data:image/png;base64,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</Image>
+<Url type="text/html" method="POST" template="https://www.startpage.com/do/search">
   <Param name="query" value="{searchTerms}"/>
-  <Param name="fulltext" value="on"/>
-  <Param name="all" value="Search+All"/>
+  <Param name="cat" value="web"/>
+  <Param name="cmd" value="process_search"/>
 </Url>
 <Version>1</Version>
-<SearchForm>https://invidio.us/</SearchForm>
+<SearchForm>https://www.startpage.com/sp/search</SearchForm>
 </OpenSearchDescription>
 
