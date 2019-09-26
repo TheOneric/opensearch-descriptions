@@ -5,11 +5,7 @@
 <InputEncoding>UTF-8</InputEncoding>
 <Image width="32" height="32" type="image/x-icon">https://invidio.us/favicon-32x32.png?v=be2ee33</Image>
 <Image width="16" height="16" type="image/x-icon">https://invidio.us/favicon-16x16.png?v=be2ee33</Image>
-<Url type="text/html" method="GET" template="https://invidio.us/results?search_query={searchTerms}&amp;aq=f">
-  <Param name="query" value="{searchTerms}"/>
-  <Param name="fulltext" value="on"/>
-  <Param name="all" value="Search+All"/>
-</Url>
+<Url type="text/html" method="GET" template="https://invidio.us/search?q={searchTerms}" />
 <Version>1</Version>
 <SearchForm>https://invidio.us/</SearchForm>
 </OpenSearchDescription>
