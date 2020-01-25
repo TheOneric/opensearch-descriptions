@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Searx (Kuketz)</ShortName>
+<Description>Search kuketz-suche.de using POST-requests</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="64" height="64" type="image/png">https://www.kuketz-suche.de/static/themes/kuketz/img/favicon.png</Image>
+<Url type="text/html" method="POST" template="https://www.kuketz-suche.de/">
+  <Param name="q" value="{searchTerms}"/>
+</Url>
+<Version>1</Version>
+<SearchForm>https://www.kuketz-suche.de/</SearchForm>
+</OpenSearchDescription>
+
